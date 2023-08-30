@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: 'coolfont';
+    src: url(/public/WorkSans-VariableFont_wght.ttf);
+}
+.whole{
+    background-color: white;
+    height: 2680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 32px 0px;
+}
+.logo{
+    width: 150px;
+    margin-right: 118px;
+}
+.pages{
+    display: flex;
+    gap: 40px;
+    padding: 0px 116px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3b3c4a;
+}
+.searchsection{
+    background-color: #f4f4f5;
+    border-radius: 5px;
+    padding: 8px 8px 8px 16px;
+    display: flex;
+    gap: 12px;
+}
+.search{
+    border: none;
+    background-color: #f4f4f5;
+    color: #a1a1aa;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    width: 114px;
+    height: 20px;
+}
+.button{
+    border: none    ;
+}
+.introductiontop{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.introduction{
+    background-color: #f6f6f7;
+    width: 1216px;
+    height: 344px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    gap: 24px;
+}
+.myface{
+    border-radius: 100%;
+    height: 64px;
+}
+.nametop{
+    color: #181a2a;
+    font-size: 20px;
+    font-weight: 500;
+}
+.namebottom{
+    color: #696a75;
+    font-size: 14px;
+    font-weight: 400;
+}
+.description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #3b3c4a;
+    width: 668px;
+    text-align: center;
+    font-family: coolfont;
+}
